@@ -1,0 +1,74 @@
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+body
+{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    line-height: 21px;
+}
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+:root
+{
+    --black:#494949;
+    --green:#3AAC8B;
+    --dark-blue:#2A3E55;
+}
+.all_lessons_content
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.title3
+{
+    width:524px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 56px;
+}
+.into3{
+    position: relative;
+    width: 322px;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 25px;
+    bottom: 37px;
+}
+.btns3
+{
+    margin-top:72px ;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;   
+}
+.btns-item
+{
+    display: inline;
+    list-style: none;
+    text-decoration: none; 
+}
+.btns3-links
+{
+    text-decoration-line: none;
+    background-color:#2A3E55;
+    color:white;
+    padding: 5px 45px;
+    border-radius: 50px;
+}
+.find3
+{
+    text-decoration-line: none;
+    background-color: #3AAC8B;
+    border-radius: 50px;
+    padding: 5px 45px;
+    color: white;
+    margin-top:75px;
+    margin-bottom: 100px;
+}
